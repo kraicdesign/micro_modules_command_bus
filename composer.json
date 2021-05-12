@@ -6,7 +6,7 @@
     "require": {
         "php": "^7.3 || ^8.0",
         "league/tactician-bundle": "^1.2",
-        "micro-module/tactician-command-events": "^0.7"
+        "micro-module/tactician-command-events": "^0.8"
     },
     "require-dev": {
         "php-parallel-lint/php-console-highlighter": "^0.4",
