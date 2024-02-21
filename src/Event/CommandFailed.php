@@ -16,7 +16,7 @@ class CommandFailed extends \League\Tactician\CommandEvents\Event\CommandFailed
     /**
      * @var Throwable
      */
-    protected $exception;
+    protected Throwable $exception;
 
     /**
      * @param object    $command
