@@ -3,4 +3,4 @@ includes:
 
 parameters:
 	ignoreErrors:
-	    - '#MicroModule\\CommandBus\\Event\\CommandFailed:+:__construct.*#'
+	    - '#DddModule\\CommandBus\\Event\\CommandFailed:+:__construct.*#'

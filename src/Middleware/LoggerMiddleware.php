@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\CommandBus\Middleware;
+namespace DddModule\CommandBus\Middleware;
 
-use MicroModule\CommandBus\Exception\ThrowableException;
+use DddModule\CommandBus\Exception\ThrowableException;
 use Exception;
 use League\Tactician\Logger\Formatter\Formatter;
 use League\Tactician\Middleware;

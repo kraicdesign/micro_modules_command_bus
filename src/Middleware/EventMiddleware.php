@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\CommandBus\Middleware;
+namespace DddModule\CommandBus\Middleware;
 
-use MicroModule\CommandBus\Event\CommandFailed;
+use DddModule\CommandBus\Event\CommandFailed;
 use League\Tactician\CommandEvents\Event\CommandHandled;
 use League\Tactician\CommandEvents\Event\CommandReceived;
 use Throwable;
