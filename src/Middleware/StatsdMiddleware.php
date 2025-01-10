@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\CommandBus\Middleware;
+namespace DddModule\CommandBus\Middleware;
 
 use League\Tactician\Middleware;
 use M6Web\Component\Statsd\Client;

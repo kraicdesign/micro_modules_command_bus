@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\CommandBus\Event;
+namespace DddModule\CommandBus\Event;
 
 use Throwable;
 
@@ -16,7 +16,7 @@ class CommandFailed extends \League\Tactician\CommandEvents\Event\CommandFailed
     /**
      * @var Throwable
      */
-    protected Throwable $exception;
+    protected $exception;
 
     /**
      * @param object    $command

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\CommandBus\Exception;
+namespace DddModule\CommandBus\Exception;
 
 use Exception;
 use Throwable;
@@ -10,7 +10,7 @@ use Throwable;
 /**
  * Class ThrowableException.
  *
- * @category MicroModule\CommandBus\Exception
+ * @category DddModule\CommandBus\Exception
  */
 class ThrowableException extends Exception
 {
